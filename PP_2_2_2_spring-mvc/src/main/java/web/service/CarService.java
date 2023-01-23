@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 @Service
-public class CarService {
+public class CarService implements CarServiceInterface {
     private List<Car> carsList;
     {
         carsList = new ArrayList<>();
